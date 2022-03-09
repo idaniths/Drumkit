@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1300px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+section{
+    /* padding: 25rem; */
+    background-image: url(img/drumkit.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* position: relative; */
+}
+.kick, .snare,.first_tom, .second_tom, .third_tom, .hihat, .crash, .ride{
+    opacity: 0.0;
+}
+
+
+
+
+
+
