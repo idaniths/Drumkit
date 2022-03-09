@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    /* max-width: 1300px; */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -11,11 +10,10 @@ body{
 
 }
 section{
-    /* padding: 25rem; */
     background-image: url(img/drumkit.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    /* transform: translateX(20rem); */
+
 }
 
 .kick, .snare,.first_tom, .second_tom, .third_tom, .hihat, .crash, .ride{
