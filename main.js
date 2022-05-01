@@ -22,7 +22,7 @@ document.addEventListener("keydown", (e)=>{
     setTimeout(changeColor, 200)
     
     if(e.code == "Space"){
-    (new Audio('sounds/kicks/big-ol-yamaha-kick.wav')).play();
+    (new Audio('sounds/Kicks/big-ol-yamaha-kick.wav')).play();
     kick.style.opacity = "0.4";
     }
     
@@ -30,7 +30,7 @@ document.addEventListener("keydown", (e)=>{
 // SNARE
 document.addEventListener("keydown", (e)=>{
     if(e.code == "KeyC"){
-    (new Audio('sounds/snares/acoustic_snare.wav')).play();
+    (new Audio('sounds/Snares/acoustic_snare.wav')).play();
     snare.style.opacity = "0.4";
     }
     
@@ -38,7 +38,7 @@ document.addEventListener("keydown", (e)=>{
 // TOM-1
 document.addEventListener("keydown", (e)=>{
     if(e.code == "KeyV"){
-        (new Audio('sounds/toms/ambient_tom_1.wav')).play();
+        (new Audio('sounds/Toms/ambient_tom_1.wav')).play();
         first_tom.style.opacity = "0.4";
     }
     
@@ -46,7 +46,7 @@ document.addEventListener("keydown", (e)=>{
 // TOM-2
 document.addEventListener("keydown", (e)=>{
     if(e.code == "KeyB"){
-        (new Audio('sounds/toms/ambient_tom_2.wav')).play();
+        (new Audio('sounds/Toms/ambient_tom_2.wav')).play();
         second_tom.style.opacity = "0.4";
     }
    
@@ -54,7 +54,7 @@ document.addEventListener("keydown", (e)=>{
 // TOM-3
 document.addEventListener("keydown", (e)=>{
     if(e.code == "KeyN"){
-        (new Audio('sounds/toms/ambient_tom_3.wav')).play();
+        (new Audio('sounds/Toms/ambient_tom_3.wav')).play();
         third_tom.style.opacity = "0.4"
     }
     
@@ -62,7 +62,7 @@ document.addEventListener("keydown", (e)=>{
 // HI-HAT
 document.addEventListener("keydown", (e)=>{
     if(e.code == "ShiftRight"){
-    (new Audio('sounds/hats/chh.wav')).play();
+    (new Audio('sounds/Hats/chh.wav')).play();
     hihat.style.opacity = "0.4"
     }
   
@@ -70,7 +70,7 @@ document.addEventListener("keydown", (e)=>{
 // CRASH
 document.addEventListener("keydown", (e)=>{
     if(e.code == "Enter"){
-    (new Audio('sounds/Chrash/18_inch_crash.wav')).play();
+    (new Audio('sounds/Crash/18_inch_crash.wav')).play();
     crash.style.opacity = "0.4";
     }
     
@@ -78,7 +78,7 @@ document.addEventListener("keydown", (e)=>{
 // RIDE
 document.addEventListener("keydown", (e)=>{
     if(e.code == "ArrowLeft"){
-    (new Audio('sounds/rides/CYMRIDE11.wav')).play();
+    (new Audio('sounds/Rides/CYMRIDE11.wav')).play();
     ride.style.opacity = "0.4";
     }
   
