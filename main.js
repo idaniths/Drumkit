@@ -70,7 +70,7 @@ document.addEventListener("keydown", (e)=>{
 // CRASH
 document.addEventListener("keydown", (e)=>{
     if(e.code == "Enter"){
-    (new Audio('sounds/18_inch_crash.wav')).play();
+    (new Audio('sounds/Chrash/18_inch_crash.wav')).play();
     crash.style.opacity = "0.4";
     }
     
