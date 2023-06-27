@@ -3,10 +3,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    
-    
-}
 header{
     display: flex;
     flex-direction: column;
@@ -16,8 +12,6 @@ header{
     position: absolute;
     width: 100%;
     z-index: 1;
-    
-    
 }
 h1{
     font-family: 'Revalia', Arial, Helvetica, sans-serif ;
